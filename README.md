@@ -47,16 +47,16 @@ $ c.append(7)
 [1, 2, 3, 4, 5, 7]
 
 ###2.1.1. The for Statement
-$ for x in [1, 2, 3, 4]:
-    print x
+'$ for x in [1, 2, 3, 4]:
+'    print x
 
-$ for i  in range(10):
-    print i, i*i, i*i*i
+'$ for i  in range(10):
+'    print i, i*i, i*i*i
 
 # 2.1.2 Build-in functions
 The built-in function zip takes two lists and returns list of pairs.
-$ zip(["a", "b", "c"], [1, 2, 3])
-[('a', 1), ('b', 2), ('c', 3)]
+'$ zip(["a", "b", "c"], [1, 2, 3])
+'[('a', 1), ('b', 2), ('c', 3)]
 
 Ex:-
 names = ["a", "b", "c"]
